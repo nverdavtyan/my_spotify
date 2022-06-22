@@ -1,0 +1,49 @@
+
+/* -------------------------------------------------------- */
+/* Root */
+/* -------------------------------------------------------- */
+:root {
+    --primary-color: #3ced91;
+    --text-color: #FFFFFF;
+    --text-color-hover: #2B2B2B;
+    --box-shadow: 2px 2px 5px #00000020;
+    --background-color: #000000;
+    --background-color-hover: #FFFFFF;
+    --background-transparent: #00000080;
+}
+
+/* -------------------------------------------------------- */
+/* Defaults */
+/* -------------------------------------------------------- */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: var(--text-color);
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-color: var(--background-color);
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 18px;
+}
+h3 {
+    font-size: 17px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 15px;
+}
+a, p, li, input, button, h6 {
+    font-size: 14px;
+}
+button {
+    cursor: pointer;
+}
